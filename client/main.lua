@@ -65,6 +65,7 @@ function OpenMenu()
 	ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'cloakroom',
 	{
 		title    = _U('cloakroom'),
+		align    = 'top-left',
 		elements = {
 			{label = _U('job_wear'),     value = 'job_wear'},
 			{label = _U('citizen_wear'), value = 'citizen_wear'}
